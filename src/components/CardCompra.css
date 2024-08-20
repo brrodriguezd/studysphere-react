@@ -1,0 +1,31 @@
+.contenedor-compra {
+    margin: 5vh auto;
+}
+
+.compra-premium {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: auto;
+    flex-wrap: wrap;
+    margin: 5vh auto;
+    width: 50%;
+}
+
+.compra-premium button {
+    border: none;
+    align-self: center;
+    outline: 0;
+    padding: 15px;
+    color: white;
+    background-color: #cccccc;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    font-size: 15px;
+}
+
+.compra-premium button:hover {
+    opacity: 0.7;
+}
