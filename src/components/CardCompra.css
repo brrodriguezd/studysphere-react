@@ -1,31 +1,55 @@
 .contenedor-compra {
-    margin: 5vh auto;
+  margin: 5vh auto;
+}
+
+h1 {
+  margin: 0;
+}
+img {
+  width: 80px;
+  float: left;
+}
+h5 {
+  margin: 10px;
+  float: right;
+}
+.beneficios img {
+  width: 40px;
 }
 
 .compra-premium {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: auto;
-    flex-wrap: wrap;
-    margin: 5vh auto;
-    width: 50%;
+  border-radius: 25px;
+  background-color: #c6dcba;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 30px;
+  flex-wrap: wrap;
+  margin: 5vh auto;
+  height: 600px;
+  width: 300px;
 }
-
+.compra-premium beneficios {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
 .compra-premium button {
-    border: none;
-    align-self: center;
-    outline: 0;
-    padding: 15px;
-    color: white;
-    background-color: #cccccc;
-    text-align: center;
-    cursor: pointer;
-    width: 50%;
-    font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  align-self: center;
+  outline: 0;
+  padding: 10px;
+  color: white;
+  background-color: #92c7cf;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+  font-size: 15px;
 }
 
 .compra-premium button:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
