@@ -5,26 +5,34 @@
 h1 {
   margin: 0;
 }
+h2 {
+  margin: 0;
+}
 img {
-  width: 80px;
-  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100px;
 }
 h5 {
   margin: 10px;
   float: right;
 }
 .beneficios img {
+  float: left;
   width: 40px;
 }
 
 .compra-premium {
   border-radius: 25px;
-  background-color: #c6dcba;
+  background-color: #92c7cf;
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 30px;
+  padding: 20px;
   flex-wrap: wrap;
   margin: 5vh auto;
   height: 600px;
@@ -42,8 +50,10 @@ h5 {
   align-self: center;
   outline: 0;
   padding: 10px;
-  color: white;
+  color: black;
   background-color: #92c7cf;
+  border: 1px solid black;
+  border-color: black;
   text-align: center;
   cursor: pointer;
   width: 80%;
@@ -51,5 +61,10 @@ h5 {
 }
 
 .compra-premium button:hover {
-  opacity: 0.7;
+  background-color: #00696d;
+  color: white;
+}
+
+p {
+  text-align: center;
 }
