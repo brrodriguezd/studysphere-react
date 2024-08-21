@@ -5,7 +5,7 @@ import LandingPage from "./components/LandingPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/app">
+    <BrowserRouter>
       <Routes>
         <Route path="/landingpage" element={<LandingPage />} />
         <Route path="/pagos" element={<CardCompra />} />
