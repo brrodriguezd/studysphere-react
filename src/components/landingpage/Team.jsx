@@ -20,7 +20,7 @@ export const Team = () => {
               />
               <div className="caption">
                 <h4>Brayan Camilo Rodríguez</h4>
-                <p>Frontend</p>
+                <p>Desarrollador Full Stack</p>
               </div>
             </div>
           </div>
