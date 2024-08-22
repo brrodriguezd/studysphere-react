@@ -21,6 +21,12 @@ export const Team = () => {
               <div className="caption">
                 <h4>Brayan Camilo Rodríguez</h4>
                 <p>Desarrollador Full Stack</p>
+                <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                  <i className="fa fa-linkedin"></i>
+                </a>{" "}
+                <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                  <i className="fa fa-github"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -31,6 +37,12 @@ export const Team = () => {
             <div className="caption">
               <h4>Anderson</h4>
               <p>Desarrollador Frontend</p>
+              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                <i className="fa fa-linkedin"></i>
+              </a>{" "}
+              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                <i className="fa fa-github"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -40,6 +52,12 @@ export const Team = () => {
             <div className="caption">
               <h4>Sergio</h4>
               <p>Desarrollador Backend y Base de datos</p>
+              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                <i className="fa fa-linkedin"></i>
+              </a>{" "}
+              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+                <i className="fa fa-github"></i>
+              </a>
             </div>
           </div>
         </div>
