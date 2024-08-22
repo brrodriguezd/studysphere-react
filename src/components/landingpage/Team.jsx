@@ -29,7 +29,7 @@ export const Team = () => {
           <div className="thumbnail">
             <img src={fotoAnderson} alt="Anderson" className="team-img" />
             <div className="caption">
-              <h4>Sergio</h4>
+              <h4>Anderson</h4>
               <p>Frontend</p>
             </div>
           </div>
@@ -38,7 +38,7 @@ export const Team = () => {
           <div className="thumbnail">
             <img src={fotoSergio} alt="Sergio" className="team-img" />
             <div className="caption">
-              <h4>Anderson</h4>
+              <h4>Sergio</h4>
               <p>Frontend</p>
             </div>
           </div>

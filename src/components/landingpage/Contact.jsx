@@ -102,17 +102,17 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.instagram : "/"}>
+                    <a href="https://www.instagram.com/studysphereun/">
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://web.facebook.com/profile.php?id=61564752481165">
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.tiktok : "/"}>
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href={props.data ? props.data.youtube : "/"}>
+                    <a href="https://www.youtube.com/channel/UCE8unfifRb9gcJWjR0nPfDg">
                       <i className="fa fa-youtube"></i>
                     </a>
                   </li>
