@@ -13,6 +13,13 @@ function App() {
         <Route path="/pagos" element={<CardCompra />} />
         <Route path="/success" element={<Success />} />
         <Route path="/failure" element={<Failure />} />
+        <Route
+          path="/app"
+          component={() => {
+            window.location.href = "http://localhost/1234";
+            return null;
+          }}
+        />
       </Routes>
     </BrowserRouter>
   );
