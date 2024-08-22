@@ -9,7 +9,7 @@ export const Manuales = () => {
               <h2>Manuales</h2>
               <div className="col-md-7">
                 <a
-                  href="https://studysphere--five.vercel.app/"
+                  href="https://drive.google.com/file/d/1JZf8UOkUWtoTgbRaeDnAcJ8bQWzsYOSp/view?usp=sharing"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Manual de usuario
