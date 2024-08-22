@@ -30,7 +30,7 @@ export const Team = () => {
             <img src={fotoAnderson} alt="Anderson" className="team-img" />
             <div className="caption">
               <h4>Anderson</h4>
-              <p>Frontend</p>
+              <p>Desarrollador Frontend</p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export const Team = () => {
             <img src={fotoSergio} alt="Sergio" className="team-img" />
             <div className="caption">
               <h4>Sergio</h4>
-              <p>Frontend</p>
+              <p>Desarrollador Backend y Base de datos</p>
             </div>
           </div>
         </div>

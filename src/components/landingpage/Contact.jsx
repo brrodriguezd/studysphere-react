@@ -7,14 +7,14 @@ const initialState = {
   email: "",
   message: "",
 };
-export const Contact = (props) => {
+export const Contact = () => {
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
+  const clearState = () => setState({ initialState });
 
   const handleSubmit = (e) => {
     e.preventDefault();
