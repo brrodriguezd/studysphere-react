@@ -13,7 +13,7 @@ const Success = () => {
 
   useEffect(() => {
     axios
-      .post("http://localhost:3001/update_user", {
+      .post("https://studysphere-react.onrender.com/update_user", {
         userId: searchParams.get("userId"),
       })
       .then((_res) => {

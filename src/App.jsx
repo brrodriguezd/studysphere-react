@@ -16,7 +16,7 @@ function App() {
         <Route
           path="/app"
           component={() => {
-            window.location.href = "http://localhost/1234";
+            window.location.href = "https://studysphere--five.vercel.app/";
             return null;
           }}
         />

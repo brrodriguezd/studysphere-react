@@ -3,10 +3,19 @@
 }
 
 h1 {
+  color: black;
   margin: 0;
 }
 h2 {
+  text-align: center;
+  color: black;
   margin: 0;
+}
+h5 {
+  color: black;
+}
+p {
+  color: black;
 }
 img {
   margin-top: 0;
@@ -36,7 +45,7 @@ h5 {
   flex-wrap: wrap;
   margin: 5vh auto;
   height: 600px;
-  width: 300px;
+  width: 350px;
 }
 .compra-premium beneficios {
   display: flex;

@@ -22,7 +22,7 @@ const CardCompra = () => {
   const crearPreferencia = async () => {
     try {
       const response = await axios.post(
-        "http://localhost:3001/create_preference",
+        "https://studysphere-react.onrender.com/create_preference",
         {
           title: "Study Sphere Premium",
           quantity: 1,
