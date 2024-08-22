@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Header = (props) => {
+export const Header = () => {
   return (
     <header id="header">
       <div className="intro">
@@ -14,7 +14,8 @@ export const Header = (props) => {
                 </h1>
                 <p>Tu apoyo para todos tus proyectos</p>
                 <a
-                  href="#features"
+                  rel="noopener noreferrer"
+                  href="https://studysphere--five.vercel.app/"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Inicia gratuitamente
