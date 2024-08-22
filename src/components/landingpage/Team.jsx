@@ -11,7 +11,7 @@ export const Team = () => {
           <h2>El equipo de desarrollo</h2>
         </div>
         <div id="row">
-          <div className="col-md-3 col-sm-6 team">
+          <div className="col-md-4 col-sm-6 team">
             <div className="thumbnail">
               <img
                 src={fotoBrayan}
@@ -25,7 +25,7 @@ export const Team = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 team">
+        <div className="col-md-4 col-sm-6 team">
           <div className="thumbnail">
             <img src={fotoAnderson} alt="Anderson" className="team-img" />
             <div className="caption">
@@ -34,7 +34,7 @@ export const Team = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 team">
+        <div className="col-md-4 col-sm-6 team">
           <div className="thumbnail">
             <img src={fotoSergio} alt="Sergio" className="team-img" />
             <div className="caption">

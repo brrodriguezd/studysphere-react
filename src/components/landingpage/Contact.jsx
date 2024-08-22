@@ -41,7 +41,7 @@ export const Contact = () => {
     <div>
       <div id="contact">
         <div className="container">
-          <div className="col-md-8">
+          <div className="col-md-12">
             <div className="row">
               <div className="section-title">
                 <h2>Escribenos</h2>
