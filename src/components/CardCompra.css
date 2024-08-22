@@ -45,7 +45,7 @@ h5 {
   flex-wrap: wrap;
   margin: 5vh auto;
   height: 600px;
-  width: 350px;
+  width: 400px;
 }
 .compra-premium beneficios {
   display: flex;
@@ -65,7 +65,7 @@ h5 {
   border-color: black;
   text-align: center;
   cursor: pointer;
-  width: 80%;
+  width: 100%;
   font-size: 15px;
 }
 
