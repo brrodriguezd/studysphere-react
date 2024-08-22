@@ -1,10 +1,14 @@
+import "./Success.css";
 import React from "react";
 import { useState, useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
+import support from "./img/support.png";
 import axios from "axios";
 
 const Success = () => {
-  const [successfulUpdate, setSuccessfulUpdate] = useState(false);
+  const [successfulUpdate, setSuccessfulUpdate] = useState(true);
+  // FOR TESTING
+  //const [successfulUpdate, setSuccessfulUpdate] = useState(true);
   const [searchParams] = useSearchParams();
 
   useEffect(() => {
@@ -19,11 +23,17 @@ const Success = () => {
   });
   //si no ha cargado espera
   if (!successfulUpdate) {
-    return <div>cargando...</div>;
+    return (
+      <div className="contenedor">
+        <h1>Cargando...</h1>
+      </div>
+    );
   }
   return (
-    <div>
+    <div className="contenedor">
       <h1>Pago Exitoso</h1>
+      <h3>Cierra esta pestaña y recarga la pagina para continuar.</h3>
+      <img src={support} alt="Gracias por tu apoyo"></img>
     </div>
   );
 };
