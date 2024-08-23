@@ -40,7 +40,7 @@ export const Team = () => {
               <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
                 <i className="fa fa-linkedin"></i>
               </a>{" "}
-              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+              <a href="https://github.com/brrodriguezd">
                 <i className="fa fa-github"></i>
               </a>
             </div>
