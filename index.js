@@ -37,9 +37,9 @@ app.post("/create_preference", async (req, res) => {
       ],
       // aqui se redirecciona a diferentes paginas para cada caso
       back_urls: {
-        success: `http://localhost:3000/success?userId=${req.body.userId}`,
-        failure: "http://localhost:3000/failure",
-        pending: `http://localhost:3000/success?userId=${req.body.userId}`,
+        success: `https://studysphere-react.vercel.app/success?userId=${req.body.userId}`,
+        failure: "https://studysphere-react.vercel.app/failure",
+        pending: `https://studysphere-react.vercel.app/success?userId=${req.body.userId}`,
       },
       auto_return: "approved",
     };
