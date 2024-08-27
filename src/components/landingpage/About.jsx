@@ -23,11 +23,10 @@ export const About = () => {
               <h3>Vision</h3>
               <div className="list-style">
                 <p>
-                  Para 2026, Study Sphere será una herramienta de uso común
-                  entre los estudiantes de varias partes del mundo que los
-                  impulse a explotar todo su potencial al facilitar la forma en
-                  la que se organizan a sí mismos bajo un marco de actuación
-                  ético y honesto.
+                  Para 2028, Study Sphere será una herramienta de uso común en
+                  el estudio autónomo y el manejo de asignaturas y proyectos,
+                  que permita a los usuarios, con su esfuerzo y honestidad hacía
+                  sí mismos, alcanzar sus metas académicas y/o personales.
                 </p>
               </div>
             </div>
