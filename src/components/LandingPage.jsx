@@ -7,6 +7,7 @@ import { Contact } from "./landingpage/Contact";
 import SmoothScroll from "smooth-scroll";
 import "./LandingPage.css";
 import { Manuales } from "./landingpage/Manual";
+import { Faq } from "./landingpage/Faq";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -22,6 +23,7 @@ const LandingPage = () => {
       <Services />
       <Team />
       <Contact />
+      <Faq />
       <Manuales />
     </div>
   );
