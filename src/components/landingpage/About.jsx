@@ -17,7 +17,7 @@ export const About = () => {
             <div className="about-text">
               <h2>Acerca de nosotros</h2>
               <p>
-                Somos una empresa dedicada al idesarrollo de herramientas para
+                Somos una empresa dedicada al desarrollo de herramientas para
                 ayudar a cumplir tus metas personales{" "}
               </p>
               <h3>Vision</h3>
