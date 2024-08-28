@@ -17,7 +17,7 @@ export const Manuales = () => {
               </div>
               <div className="col-md-3">
                 <a
-                  href="https://studysphere--five.vercel.app/"
+                  href="https://drive.google.com/file/d/12JwOXVv5saFI6Ijuiy4GqJ6DANhgHbZz/view?usp=sharing"
                   className="btn btn-custom btn-lg page-scroll"
                 >
                   Manual técnico
