@@ -52,10 +52,10 @@ export const Team = () => {
             <div className="caption">
               <h4>Sergio</h4>
               <p>Desarrollador Backend y Base de datos</p>
-              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+              <a href="https://www.linkedin.com/in/sergio-ivan-motta-doncel-162a3622a/">
                 <i className="fa fa-linkedin"></i>
               </a>{" "}
-              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+              <a href="https://github.com/smottad/">
                 <i className="fa fa-github"></i>
               </a>
             </div>
