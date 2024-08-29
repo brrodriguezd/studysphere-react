@@ -35,7 +35,7 @@ export const Team = () => {
           <div className="thumbnail">
             <img src={fotoAnderson} alt="Anderson" className="team-img" />
             <div className="caption">
-              <h4>Anderson</h4>
+              <h4>Anderson Morales</h4>
               <p>Desarrollador Frontend</p>
               <a href="www.linkedin.com/in/anderson-david-morales-chila-58b920182">
                 <i className="fa fa-linkedin"></i>
@@ -50,7 +50,7 @@ export const Team = () => {
           <div className="thumbnail">
             <img src={fotoSergio} alt="Sergio" className="team-img" />
             <div className="caption">
-              <h4>Sergio</h4>
+              <h4>Sergio Motta Doncel</h4>
               <p>Desarrollador Backend y Base de datos</p>
               <a href="https://www.linkedin.com/in/sergio-ivan-motta-doncel-162a3622a/">
                 <i className="fa fa-linkedin"></i>
