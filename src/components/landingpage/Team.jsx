@@ -37,10 +37,10 @@ export const Team = () => {
             <div className="caption">
               <h4>Anderson</h4>
               <p>Desarrollador Frontend</p>
-              <a href="https://www.linkedin.com/in/brayan-camilo-rodriguez-diaz-722757225/">
+              <a href="www.linkedin.com/in/anderson-david-morales-chila-58b920182">
                 <i className="fa fa-linkedin"></i>
               </a>{" "}
-              <a href="https://github.com/brrodriguezd">
+              <a href="https://github.com/AndersonMorales08">
                 <i className="fa fa-github"></i>
               </a>
             </div>
