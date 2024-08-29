@@ -48,7 +48,12 @@ export const Navigation = () => {
               </a>
             </li>
             <li>
-              <a href="#manual" className="page-scroll">
+              <a href="#faq" className="page-scroll">
+                FAQ
+              </a>
+            </li>
+            <li>
+              <a href="#manuales" className="page-scroll">
                 Manuales
               </a>
             </li>
